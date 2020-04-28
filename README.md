@@ -14,7 +14,10 @@ from ur3_api import UR3
 At the moment the API just counts with 3 methods:
 
 run_coppelia() - Start all Coppelia functionalities
-joint_values(thetas) - Send joint position values to the Robot
+
+joint_values(thetas) - Send joint position values to the Robot, receive has input an list with 6 values in radians 
+
+stop_simulation() - Ends all Coppelia functionalities
 
 ## Remote API files
 
