@@ -19,6 +19,10 @@ joint_values(thetas) - Send joint position values to the Robot, receive has inpu
 
 stop_simulation() - Ends all Coppelia functionalities
 
+## Demo
+
+To demonstrate the use of the API the demo.py file changes all joint positions to an random position and returns to the initial position.
+
 ## Remote API files
 
 The code was developed in Ubuntu 18.04, if you are using other OS you need to change the remoteApi.so file to the appropriate remote API library: "remoteApi.dll" (Windows), "remoteApi.dylib" (Mac) or "remoteApi.so" (Linux)
